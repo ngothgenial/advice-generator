@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container mainbox">
+        <!-- input selecteur -->
+        <div class="row inputbox">
+           <div class="col">
+            <label for="validationDefault01" class="form-label">DAY</label>
+            <input type="datetime" class="form-control" id="validationDefault01" placeholder="DD" required>
+           </div>
+           <div class="col">
+            <label for="validationDefault01" class="form-label">MONTH</label>
+            <input type="datetime" class="form-control " id="validationDefault01" placeholder="MM" required>
+           </div>
+           <div class="col lastcol">
+            <label for="validationDefault01" class="form-label">YEAR</label>
+            <input type="datetime" class="form-control" id="validationDefault01" placeholder="YYYY" required>
+           </div>
+        </div>
+        <!-- button with arrow -->
+        <div class="row">
+            <div class="icon-arrow">
+                <div class="line"></div>
+                <button class="rounded-circle bg-red none"><img src="images/icon-arrow.svg" alt="" width="30px" height="30px"></button>
+            </div>
+        </div>
+        <!-- list result -->
+        <div id="result">
+            <div class="row">
+                <h1> <a style="color: rgb(55, 55, 241);">24</a> years</h1>
+            </div>
+            <div class="row">
+                <h1><a style="color: rgb(55, 55, 241);">3</a> months</h1>
+            </div>
+            <div class="row">
+                <h1><a style="color: rgb(55, 55, 241);">26</a> days</h1>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
